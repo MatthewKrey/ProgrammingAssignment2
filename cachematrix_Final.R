@@ -35,3 +35,5 @@ cacheSolve <- function(x, ...) {
     x$set_inverse(matrix_inverse)                                   # And sets the value of the inverse matrix in the cache via our set_inverse() function.
     matrix_inverse
 }
+
+# Thank you to @sefakilic, TA's Al Warren and Karl Schultz for their test code, and Daniele Pigni for her great post on Step-by-Step understanding of the Assignment instructions.
